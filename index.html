@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="assets/images/hotel.png" type="image/x-icon">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <title>Portal - Lar Doce Lar</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                        <a class="navbar-brand" href="#"><img src="assets/images/hotel.png" class="imghotel">Portal - Lar Doce Lar</a>
+                        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="navbar-collapse collapse" id="navbarMenu">
+                            <div class="navbar-nav">
+                                <a href="#" class="nav-item nav-link active">Início</a>
+                                <a href="#" class="nav-item nav-link">Serviços</a>
+                                <a href="#" class="nav-item nav-link">Institucional</a>
+                                <a href="#" class="nav-item nav-link">Atendimento</a>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+
+            <div class="row" >
+                <div class="col-sm">
+                    <div id="slideshow" class="slide carousel">
+
+                        <ol class="carousel-indicators">
+                            <li data-target="#slideshow" data-slide="0" class="active"></li>
+                            <li data-target="#slideshow" data-slide="1"></li>
+                            <li data-target="#slideshow" data-slide="2"></li>
+                        </ol>
+    
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="assets/images/imagem1.jpg" class="d-block w-100" >
+                                <div class="carousel-caption">
+                                    <h2>Praia do Félix(Ubatuba - SP)</h2>
+                                    <p>Agende já em uma das nossas acomodações!</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/images/imagem2.jpg" class="d-block w-100">
+                                <div class="carousel-caption">
+                                    <h2>Praia Brava(Florianópolis - SC)</h2>
+                                    <p>Agende já em uma das nossas acomodações!</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/images/imagem3.jpg" class="d-block w-100" height="50%">
+                                <div class="carousel-caption">
+                                    <h2>Praia da Barra(Salvador - BA)</h2>
+                                    <p>Agende já em uma das nossas acomodações!</p>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <a class="carousel-control-prev" href="#slideshow" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#slideshow" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
+    
+                    </div>
+                </div>  
+            </div><br>
+
+            <div class="search">
+                <div class="row">
+                    <div class="col-sm">
+                        <h3 class="text-dark">
+                            Pesquise o seu local de destino, e escolha sua data de entrada e saída.
+                        </h3>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="inputs">
+                <div class="row">
+                    <div class="col-sm">
+                        <div class="location">Localização</div> 
+                        <input type="text" placeholder="Para onde você vai?">
+                    </div>
+                    <div class="col-sm">
+                        <div class="checkin">Check-in</div>
+                        <input type="date" name="" id="">
+                    </div>
+                    <div class="col-sm">
+                        <div class="checkout">Check-out</div>
+                        <input type="date" name="" id="">
+                    </div>
+                    <div class="col-sm">
+                        <div class="persons">Pessoas</div>
+                        <input type="text" placeholder="Quantas pessoas irão?">
+                    </div>
+                </div>
+            </div> 
+        </div>
+
+        <div class="row cards" id="allcards">
+
+        </div>
+        
+        <!--Scripts para a chamada do Bootstrap-->
+        <script type="text/javascript" src="assets/js/jquery-3.5.1.min.js"></script>
+        <script type="text/javascript" src="assets/js/bootstrap.bundle.min.js"></script>
+        <script type="text/javascript" src="assets/js/script.js"></script>
+    </body>
+</html>
