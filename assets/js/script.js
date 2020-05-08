@@ -7,15 +7,13 @@ fetch(api)
     result.forEach(function(element) {
 
      document.getElementById('allcards').innerHTML += `
-          <div class="row">
-               <div class="col-md-4">
-                    <div class="card" style="width: 18rem;">
-                         <img class="card-img-top" src='${element.photo}'>
-                         <div class="card-body">
-                              <h5 class="card-title">Diária R$ ${element.price}</h5>
-                              <p class="card-text">${element.property_type}</p>
-                              <h5 class="title-6">${element.name.toLowerCase()}</h5>
-                         </div>
+          <div class="col">
+               <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src='${element.photo}'>
+                    <div class="card-body">
+                         <h5 class="card-title">Diária R$ ${element.price}</h5>
+                         <b class="card-text">${element.property_type}</b>
+                         <p>${element.name.toLowerCase()}</p>
                     </div>
                </div>
           </div>
